@@ -15,7 +15,7 @@ const formattedPort = (() => {
 app.use(express.static('public'));
 
 // Se levanta el servidor en el resultado de parsear el puerto desde el argumento
-app.listen(process.env.port || 3000 , () =>{
+app.listen(process.env.PORT || 3000 , () =>{
     console.log('Servidor funcionando' );
 });
 
