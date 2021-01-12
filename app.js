@@ -16,7 +16,7 @@ app.use(express.static('public'));
 
 // Se levanta el servidor en el resultado de parsear el puerto desde el argumento
 app.listen(process.env.PORT || 3000 , () =>{
-    console.log('Servidor funcionando' );
+    console.log('El servidor esta funcionando' );
 });
 
 // Se definen rutas y respuestas en el mismo script (recordar que esto puede modularizarse)
